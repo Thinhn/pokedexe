@@ -1,0 +1,74 @@
+body,html{
+   /* border:2px solid red;*/
+    height:100%;
+    margin:0px;
+}
+#layOut{
+    width:100%;
+    border:2px solid yellow;
+    flex-direction:column;
+    display:flex;
+    /*flex-basis:100px;*/
+    height:100%;
+    /*flex-grow:2;*/
+    text-overflow:ellipsis;
+    overflow-y:scroll;/*fix the overflow on the layout div*/
+}
+
+select{
+    width:200px;
+    text-align:center;
+    align-self:center;
+    display:block;
+    /*border:2px solid red;*/
+    margin:0 auto;
+    margin-top:20px;
+    font-size:20px;
+
+}
+#sect1{
+   /* border:2px solid red;*/
+    flex-basis:30%;
+    text-align:center;
+    background-color:rgba(101, 161, 230,0.5);
+    padding:10px;
+}
+#sect2{
+    flex-basis:60%;
+    background-color:rgba(101, 161, 230,0.5);
+    padding:10px;
+    /*flex-grow:2;*/
+    /*min-height:10;*/
+}
+footer{  
+    border:2px solid blue;
+    flex-basis:10%;
+    text-align:center;
+    background-color: rgb(213, 209, 85);
+}
+p{
+    font-size:20px;
+    margin-left:10px;
+}
+#img{
+    display:block;
+    height:200px;
+    width:200px;
+    margin:auto auto;
+}
+#name{
+    text-align:center;
+    font-size:25px;
+}
+label{
+    font-size:40px;
+    margin-bottom:100px;
+    /*border:2px solid red;*/
+}
+#abilityHead{
+    font-size:25px;
+}
+#playBtn{
+    margin-top:20px;
+    font-size:20px;
+}
